@@ -1,0 +1,71 @@
+.box{
+    width: 100px;
+    height: 10px;
+    margin: 0px auto;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.yellow{
+    background: yellow;
+}
+.Fuentes {
+
+    color: white;
+
+}
+
+body {
+
+    background: silver;
+}
+
+.pru {
+
+
+    background: white;
+
+
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+p.bolder {
+
+    font-weight: 200;
+
+}
+
+.pago {
+    color: red;
+    background: white;
+
+}
+
+.text-center {
+    text-align: center;
+    margin: 0px auto;
+}
+.nav a{
+    margin-right: 20px;
+}
+.nav a:last-child{
+    margin: 0px;
+}
+@media(min-width: 400px) {
+    .nav a{
+        margin-right: 50px;
+    }
+}
+.estilo{
+    
+    background:blue;
+    color: white;
+
+}
