@@ -2,23 +2,27 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<style>
-		.rojo{
-			color:red;
-		}
-	</style>
+		
+
+	
 	<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>inicio a informacion de nuestro sitio web</title>
+		<title>inicio a información de nuestro sitio web</title>
 		<link rel="stylesheet" href="./css/styles.css">
 	<meta/>
+	
 </head>
 
 <body>
 	<img src="logo.png" width="150" height="50">
+
+
+	<div align="center">
+		<a title="SI desea acceder a nuestros cursos le invitamos a enviarnos un mensaje de WhatsAPP solo escribanos llenando los datos que pedimos al ingresar al chat, solo de click y le aparecen en automatico." href="https://api.whatsapp.com/send?phone=+523787908893&text=Necesito!%20Ayuda%20%20Con %20%20%20%20Una clase de html"><img src="whatsapp.jpg" width="200" height="200"></a></div>
+
 	<div class="container text-center">
-		<h1 class="">Cursos de Programacion e Informatica Extraordinaria
+		<h1 class="">Cursos de Programación e Informática Extraordinaria
 	</h5></h1>
         <h5 class="">Ganar por aprender</h5>
 		<div class="nav pru">
@@ -41,83 +45,221 @@
 		<br/>
 
 <center>
-			<table>
-		<tr>
-			<td>
-				<h3><p ><i><strong class="estilo">
-			Si usted visita nuestra página por primera vez. Se le informa que usted
-			puede ganar dinero que puede ser <br> utilizado para cambiar por:<br /> *Nuevos cursos: (Programacion, Computacion, Administracion de servidores, etc.)
-			)<br/>*Cobrar en Efectivo DINERO acumulado por estudir o invitar a familiares o amigos< <br />Para más información:
-	</h3></strong></i></p>
+	<table><tr><td>
+
+<h1 class="hs">Sobre nosotros:</h1>
+<p align=""><big>Somos un sitio web dedicado a la gestión de cursos en linea. </big></p>
+
+<h1 class="hs">Nuestra misión : </h1>
+<p align=""><big>ofrecer cursos con valor a nuestros alumnos, de forma remota, simple de entender y con beneficios  intelectuales y económicos para ellos.</big></p>
+
+<h1 class="hs">Nuestra visión:</h1>
+<p align=""><big>Alcanzar a todas las personas que no cuentan con recursos económicos para estudiar en universidades, ofreciendo sistemas y sub sistemas de ganancias con nosotros; la idea no es que solo paguen por estudiar, si no que aprendan y una vez aprendan logren llegar a mas comunidades con sus conocimientos y beneficios económicos que nosotros les brindaremos para alcanzar a países enteros con nuestra doctrina.  </big></p>
+
+<h1 class="hs">Nuestros valores:</h1>
+<p ><big>Servicio a los demás, honradez, lealtad, ayuda mutua, consejos a estudiantes, valor a la persona .</big></p>
+</td></tr></table>
+
+<br/><br/><br/><br/><br/><br/><br/>
+
+<table border="0"><tr>
+
+	<td>
+<h1 align="left"> Nuestros cursos &nbsp &nbsp &nbsp PLAN PREMIUM</h1>
+<H1><P><I>
+	Nuestros cursos garantizan eficiencia y calidad<br/>Es por ello que le invitamos a conocer mas de<br/>nuestros cursos sobre Programación ,React, Git<br/> y GitHub. Para ingresar y poder<br/>  Registrarse click PayPal (pago) y WhatsApp (registro):    
+</I></P></H1>	
+
+<h2><p><i>Nota: En el plan premium usted recibe:<br/>*Clases en vivo<br/>*Asistencia por videollamada <br/>*Participar de futuros proyectos<br/>*Ser instructor y cobrar por ello</i></p></h2>
+<td class="td">
+<p align="center"><big><u>$50 USD</u></big></p>
+<p align="center"><strong >Paga en 2 inicio/fin por curso</strong></p>
+<a href="https://api.whatsapp.com/send?phone=+523787117904&text=Necesito!%20Ayuda%20%20Con %20%20%20%20Una clase de html"><img src="whatsapp.jpg" width="100" height="150"></a>
+
+<div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+    function initPayPalButton() {
+      paypal.Buttons({
+        style: {
+          shape: 'rect',
+          color: 'gold',
+          layout: 'horizontal',
+          label: 'checkout',
+          
+        },
+
+        createOrder: function(data, actions) {
+          return actions.order.create({
+            purchase_units: [{"description":"Pago por curso adquirido  se abonan 25 USD y los otros 25USD se pagan al final del curso.","amount":{"currency_code":"USD","value":25}}]
+          });
+        },
+
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+            alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          });
+        },
+
+        onError: function(err) {
+          console.log(err);
+        }
+      }).render('#paypal-button-container');
+    }
+    initPayPalButton();
+  </script>
+<h3>Si no desea pagar con PayPal <br/>Puede hacerlo al siguiente numero de cuenta BanCoppel  :<br/>4169160432141134</h3>
+<h4 class="YE">Nota: Una vez realice el deposito, favor de enviar captura del deposito por WhatsAPP<br/> para concluir su registro y acceso a las clases en vivo, Gracias.</h4>
+		
+</td>
+
+<tr><td>
+	<p align="right"><strong> Lo que el alumno aprendera sera:</p></strong> <p><strong> <br/> *Con HTML a crear increibles paginas web <br/>*Con CSS a dar estilos, colores y todos los efectos pertenecientes a dichas paginas. <br/>*Con javascrip las paginas las crearemos con mas dinamismo para la interaccion de usuarios.</strong></p>
+
+		<p align="right"><strong> Duracion estimada:</p></strong> <p><strong> <br/> *1 mes aproximado <br/>*1 hora por dia de aprendizaje  <br/></strong></p>
+
+			<p align="right"><strong> Al concluir sus estudios:</p></strong> <p><strong> <br/> *El alumno podra compartir sus conocimiento con otros grupos y cobrar el 80% por ello <br/>*Partiipar de proyectos como la crecion de sitios web con nosotros desde luego pagados. <br/>*Cobrar el total de sus invitados al 100% del bono por referido. </strong></p>
+
+
 	
 
-	<a title="SI desea acceder a nuestros cursos le invitamos a enviarnos un mensaje de WhatsAPP solo escribanos llenando los datos que pedimos al ingresar al chat, solo de click y le aparecen en automatico." href="https://api.whatsapp.com/send?phone=+523787908893&text=Necesito!%20Ayuda%20%20Con %20%20%20%20Una clase de html"><img src="whatsapp.jpg" width="200" height="200"></a>
-	 
+   <td>
+   	<br/>
+   	<img src="aprendizaje.png" width="300" height="200">
+   </td>
+	</td>
+</tr>
 
 
-			</td>
-		</tr>
-	</table>
-	</center>
-
-		<br/>
-		<br>
-
-		<div class="title-section pru">
-			
-		</div>
-		<br>
+</tr></table>
 
 
-		<center>
-			<table>
-		<tr>
-			<td>&nbsp &nbsp &nbsp 
-				<h3><p ><i><strong class="estilo">
-			 Nuestros cursos garantizan eficiencia y calidad. Es por ello que le invitamos a conocer mas sobre nuestros  <br/>cursos sobre programacion, administracion de servidores, react, computacion, git y github.  <br/>  Para mas informacion:
-	</strong></i></p>
-	<a title="SI desea acceder a nuestros cursos le invitamos a enviarnos un mensaje de WhatsAPP solo escribanos llenando los datos que pedimos al ingresar al chat, solo de click y le aparecen en automatico." href="https://api.whatsapp.com/send?phone=+523787908893&text=Necesito!%20Ayuda%20%20Con %20%20%20%20Una clase de html"><img src="whatsapp.jpg" width="200" height="200"></a>
+<img src="verde.png" width="500" height="500">
+
+		
+				<table border="0" class="estilo">
+					<tr>
+						<td>
+                      <div align="left">
+                      <h1>Nuestros cursos:&nbsp &nbsp  PLAN FREE (GRATUITO)</h1>
+							<H2><p><i><strong>Nuestros cursos garantizan eficiencia y calidad.
+								
+								
+								<strong><i>&nbsp &nbsp &nbsp &nbspS&nbsp &nbsp &nbsp &nbsp Beneficios de este concepto:
+
+									 </i></strong>
+									 <strong><i>&nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Que aprenderas??</i></strong>
+                                   
+
+								<br/>Es por ello que le invitamos a conocer mas de<br/>  <strong><I>cursos sobre Programacion,Administra </I></strong>
+				 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp*Texto corto para aprender con facilidad<strong><I>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp >HTML       </I></strong><br/> React, Git y Github. Para
+				 cion de Servidores<strong><i>&nbsp &nbsp &nbsp &nbsp *Cuestionario de apoyo con respuestas automaticas</i></strong> <STRONG><I>&nbsp &nbsp &nbsp &nbsp &nbsp>CSS</i></strong>
+
+				 <br/>registrarse gratuitamente click WhatsAPP:
+							</strong>
+                   <strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp >Javascript<i></i></strong>
+
+							<strong class="s2"><br/><br/>Nota:Los cursos gratuitos no otorgan:<br/>*Clases en vivo<br/>*Asistencia por WhatsAPP sobre dudas <br/>*Participar de futuros proyectos con nosotros<br/>*Ser instructor y cobrar por ello<br/>*Clases grabadas en video
+							
+						</strong></I></p></h2>
+
+
+
+
+	        </div>
+       </tr>
+</table>
+
+	<table border="0" >
+					<tr>
+						<td>
+                      <div align="left">
+                      <h1>Nuestros cursos:&nbsp &nbsp  PLAN FREE (GRATUITO)</h1>
+							<H2><p><i><strong>Nuestros cursos garantizan eficiencia y calidad.
+								
+								
+								<strong><i>&nbsp &nbsp &nbsp &nbspS&nbsp &nbsp &nbsp &nbsp Beneficios de este concepto:
+
+									 </i></strong>
+									 <strong><i>&nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Que aprenderas??</i></strong>
+                                   
+
+								<br/>Es por ello que le invitamos a conocer mas de<br/>  <strong><i>cursos sobre Programacioni </i></strong>
+								&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
+				 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp*Texto corto para aprender con facilidad<strong><I>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp >HTML       </I></strong><br/> React, Git y Github. Para
+				 ingresar y poder<strong><i>&nbsp &nbsp &nbsp &nbsp *Cuestionario de apoyo con respuestas automaticas</i></strong> <STRONG><I>&nbsp &nbsp &nbsp &nbsp &nbsp>CSS</i></strong>
+
+				 <br/>registrarse gratuitamente click WhatsAPP:
+							</strong>
+                   <strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp >Javascript<i></i></strong>
+
+							<strong class="s2"><br/><br/>Nota:Los cursos gratuitos no otorgan:<br/>*Clases en vivo<br/>*Asistencia por WhatsAPP sobre dudas <br/>*Participar de futuros proyectos con nosotros<br/>*Ser instructor y cobrar por ello<br/>*Clases grabadas en video
+							
+						</strong></I></p></h2>
+
+
+	        </div>
+       </tr>
+<tr><td>
+
+
+
+
+<p align="right"><strong class="s2">-Con HTML aprenderas a crear paginas web desde nivel de calidad  baja, hasta paginas con gran lucides</strong></p>
+
+
+<p align="right"><strong class="s2">-Con CSS aprenderas a sacar el maximo provecho de los estilos de tu pagina, es decir vamos a darle forma, colores, estilos, y mas detalles.</strong></p>
+</td></tr>
+</td>
+<td>
+
+<p align="right"><strong class="s2">-Con Javascript aprenderas a dar funciones, agregar alertas, entradas de datos, confirmaciones, es decir: vamos a hacer mas interactivo todo con js</strong></p>
+
+</td>
+</table>
+
+
+
+
+
+<br/><br/><br/><br/>
+
+<img src= "FREE.png"width=">
+
+
+
+
+
+
+
 	
-
-
-			</td>
-		</tr>
-	</table>
-	</center>
-
-
 		<br/><br/><br/><br/><br/><br/><br/><br/>
 
 		
 		<center>
 
-		<table border="2">
+		<table>
 			<tr>
 				<td>
-<div align="left">
-				<h3>
-					Información de nosotros:
-				</h3>
-				<h4>
-					Cursos Extra de Programacion e Informatica Extraordinaria
-					  Alamos #366, </br>Aguilillas<br />Tepatitlan, Jalisco<br />México<br />
-					Servicios profesionales:
-					Raúl Ernesto Martín Gutiérrez</br>
-				</h4>
-				<h5>
-					(Ingeniero en sistemas y Software)
-				</h5>
-				<h4>
-					Paul Nuňez
-				</h4>
-				<h5>
-					(Ingeniero en software e instructor de Git y Github)
-				</h5>
-				<h5 class="rojo">
-		&copy 2021 todos los derechos reservado Cursos de Programacion e Informatica Extraordinaria
-	</h5>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+  
 			</td>
 		</tr>
 	
 	</table>
+
+
 	</center>
+
+	
+		
+</body>
+</html>

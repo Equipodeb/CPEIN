@@ -65,7 +65,46 @@ p.bolder {
 }
 .estilo{
     
-    background:blue;
+    background:white;
     color: white;
 
 }
+
+    .rojo{
+            color:red;
+        }
+
+      .estilo:hover{
+
+    background:silver;
+    
+}
+ .s2{
+    color:red;
+    
+
+    }
+
+
+
+
+    body{
+
+        background: yellow;
+    }
+
+
+        .td{
+    background:blue;
+    color:white; 
+
+ }
+ .hs{
+
+    color: blue;
+ }
+ .YE{
+
+color: yellow;
+
+ }
